@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 from flask import Flask,request, url_for, redirect, render_template
 import pickle
 from flask_sqlalchemy import SQLAlchemy
@@ -34,10 +28,6 @@ def predict():
 
     return render_template('index1.html', prediction_text='Employee Salary should be $ {}'.format(output))
 if __name__ == "__main__":
-    app.run()
-
-
-# In[ ]:
 
 
 
