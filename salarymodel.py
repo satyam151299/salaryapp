@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -42,22 +36,6 @@ pickle.dump(regressor, open('model1.pkl','wb'))
 # Loading model to compare the results
 model = pickle.load(open('model1.pkl','rb'))
 print(model.predict([[6, 0, 9]]))
-
-
-# In[11]:
-
-
-
-
-
-# In[12]:
-
-
-
-
-
-# In[ ]:
-
 
 
 
