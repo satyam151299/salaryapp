@@ -1,0 +1,14 @@
+Flask==1.1.1
+guicorn--19.9.0
+itsdangerous==1.1.0
+Jinja2==2.10.1
+MarkupSafe==1.1.1
+Werkzeug==0.15.5
+numpy>=1.9.2
+scripy>=0.15.1
+sciket-learn>=0.18
+matplotlib>=1.4.3
+pandas>=0.19
+pickel==4.0
+Flask-SQLAlchemy>=1.0
+flask_mysqldb==0.2.0
