@@ -1,1 +1,1 @@
-web : gunicorn:salaryapp:app
+web : gunicorn:salary_app:app
